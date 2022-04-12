@@ -1,0 +1,15 @@
+(add-to-list 'load-path "/usr/local/lib/emacs/evil/")
+(add-to-list 'load-path "/usr/local/lib/emacs/dired-sidebar/")
+(add-to-list 'load-path "/usr/local/lib/emacs/dired-hacks/")
+(add-to-list 'load-path "/usr/local/lib/emacs/dash/")
+(require 'evil)
+(require 'dired-sidebar)
+
+(evil-mode 1)
+(tool-bar-mode -1)
+(toggle-scroll-bar -1)
+(menu-bar-mode -1)
+(set-foreground-color "#e5e5e5")
+(set-background-color "#000000")
+(setq inhibit-splash-screen t)
+
